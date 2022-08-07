@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PINK</title>
     <link rel="stylesheet" href="/css/all.css">
-    
+
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/intro.css">
 </head>
@@ -51,7 +51,7 @@
 
                 <div class="intro__content  container">
                     <h1 class="intro__title">Взгляните на жизнь иначе!</h1>
-                    <div class="intro__button">
+                    <!--                     <div class="intro__button">
                         <a href="#" class="intro__button-link"> Скачать приложение</a>
                     </div>
                     <div class="intro__logo-list">
@@ -71,35 +71,20 @@
 
                     <div class="intro__text">
                         Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
 
         </section>
-<!-- 
-        <section class="information">
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
-        </section>
- -->
-
-
-
-
 
     </main>
- -->
 </body>
 
 <script>
     const header = document.querySelector('.header')
     document.querySelector('button').addEventListener('click', () => {
         if (header.classList.contains('header__menu--closed')) {
-            console.log('closed')
             header.classList.remove('header__menu--closed')
             header.classList.add('header__menu--opened')
         }
