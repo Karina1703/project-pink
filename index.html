@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PINK</title>
+    <link rel="stylesheet" href="/css/all.css">
+    
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/intro.css">
+</head>
+
+<body>
+    <header class="header header__menu--closed">
+
+        <div class="header__wrapper container">
+            <nav class="header__menu  header__menu--nojs">
+
+                <div class="header__menu-wrapper">
+                    <div class="menu__logo">
+                        <a href="#" class="logo__link">
+                            <picture>
+                                <source media="(min-width:660px)" srcset="/src/logotablet.svg">
+                                <img src="/src/logoMobile.svg">
+                            </picture>
+                    </div>
+
+                    <button class="header__menu-toggle" type="button"></button>
+                </div>
+
+
+                <ul class="menu__list">
+                    <li class="menu__list-item"> <a href="#" class="menu__item-link">Главная</a></li>
+                    <li class="menu__list-item"> <a href="#" class="menu__item-link">Фотографии</a></li>
+                    <li class="menu__list-item"> <a href="#" class="menu__item-link">Конкурс</a></li>
+                    <li class="menu__list-item"> <a href="#" class="menu__item-link">Academy</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main class="main">
+        <section class="intro">
+            <div class="intro__wrapper">
+
+                <div class="intro__content  container">
+                    <h1 class="intro__title">Взгляните на жизнь иначе!</h1>
+                    <div class="intro__button">
+                        <a href="#" class="intro__button-link"> Скачать приложение</a>
+                    </div>
+                    <div class="intro__logo-list">
+
+                        <a href="#" class="intro__logo-item">
+                            <img src="/src/apple-logo.svg" alt="Логотип apple" class="logo__img">
+                        </a>
+
+                        <a href="#" class="intro__logo-item">
+                            <img src="/src/android-logo.svg" alt="Логотип android" class="logo__img">
+                        </a>
+
+                        <a href="#" class="intro__logo-item">
+                            <img src="/src/microsoft-logo.svg" alt="Логотип microsoft" class="logo__img">
+                        </a>
+                    </div>
+
+                    <div class="intro__text">
+                        Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+<!-- 
+        <section class="information">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, aliquid.</div>
+        </section>
+ -->
+
+
+
+
+
+    </main>
+ -->
+</body>
+
+<script>
+    const header = document.querySelector('.header')
+    document.querySelector('button').addEventListener('click', () => {
+        if (header.classList.contains('header__menu--closed')) {
+            console.log('closed')
+            header.classList.remove('header__menu--closed')
+            header.classList.add('header__menu--opened')
+        }
+        else {
+            header.classList.remove('header__menu--opened')
+            header.classList.add('header__menu--closed')
+        }
+    })
+</script>
+
+</html>
