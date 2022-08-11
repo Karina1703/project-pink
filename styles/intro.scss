@@ -1,0 +1,141 @@
+.intro {
+    width: 100%;
+    height: 462px;
+    background: url('/src/backPhone.jpg') center no-repeat;
+    background-size: cover;
+    margin-top: -70px;
+
+    @media (min-width: 660px) {
+        height: 720px;
+        background: url('/src/backTablet.jpg') center no-repeat;
+        background-size: cover;
+        margin-top: -110px;
+
+    }
+
+    @media (min-width: 1200px) {
+        height: 853px;
+        background: url('/src/backDestop.jpg') center no-repeat;
+        background-size: cover;
+    }
+
+}
+
+
+.intro__content {
+    color: white;
+    padding-top: 84px;
+    
+
+    @media (min-width: 660px) {
+        padding-top: 211px;
+    }
+
+}
+
+
+.intro__title {
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+
+    br {
+        display: none;
+
+        @media (min-width:660px) {
+            display: block;
+
+        }
+    }
+
+    @media (min-width: 660px) {
+        font-size: 40px;
+        line-height: 120%;
+        padding-left: 79px;
+
+    }
+
+    @media (min-width:1200px) {
+        padding-left: 58px;
+        font-size: 50px;
+        line-height: 68px;
+    }
+}
+
+.app-info {
+    margin-top: 320px;
+    padding-top: 28px;
+    padding-bottom: 40px;
+
+    @media (min-width:660px) {
+        margin-top: 39px;
+        padding: 0;
+    }
+
+    @media (min-width:1200px) {
+        margin-top: 51px;
+    }
+}
+
+.intro__button {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    border: 3px solid white;
+    border-radius: 29px;
+    margin-bottom: 32px;
+    background-color: transparent;
+    width: 280px;
+    height: 55px;
+
+    @media (min-width: 660px) {
+        margin-bottom: 46px;
+        width: 300px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 67px;
+        font-size: 21px;
+        line-height: 18px;
+        height: 56px;
+    }
+
+}
+
+.intro__logo-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 208px;
+    margin: 0 auto 28px;
+
+    @media (min-width: 660px) {
+        margin-left: 46px;
+        margin-bottom: 38px;
+    }
+    @media (min-width: 1200px) {
+        margin-bottom: 58px;
+    }
+
+}
+
+.intro__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+
+    @media (min-width: 660px) {
+        font-size: 18px;
+        margin: 0;
+        width: 300px;
+    }
+
+}
+

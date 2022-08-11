@@ -1,4 +1,3 @@
-/*Обнуление*/
 * {
     padding: 0;
     margin: 0;
@@ -86,27 +85,4 @@ h5,
 h6 {
     font-size: inherit;
     font-weight: 400;
-}
-/*           */
-
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  src: local(""), url(/fonts/static/OpenSans/OpenSans-Light.ttf);
-}
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local(""), url(/fonts/static/OpenSans/OpenSans-Bold.ttf);
-}
-body {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #000;
-}
-
-a {
-  color: white;
 }

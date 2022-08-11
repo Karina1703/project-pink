@@ -1,0 +1,5 @@
+.benefits {
+  margin-top: -1px;
+  background: #ffffff url(/src/backgroundGrey.svg) center no-repeat;
+  background-size: cover;
+}
