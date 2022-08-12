@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PINK</title>
-    <link rel="stylesheet" href="./styles/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -43,37 +43,41 @@
 
 
     <main class="main">
+
         <section class="intro">
-            <div class="intro__wrapper">
+            <div class="intro__background">
 
-                <div class="intro__content  container">
+            </div>
+
+            <div class="intro__content container">
+
+
+                <div class="app-info">
                     <h1 class="intro__title">Взгляните <br> на жизнь <br>иначе!</h1>
+                    <button class="intro__button">Скачать приложение</button>
 
-                    <div class="app-info">
-                        <button class="intro__button">Скачать приложение</button>
+                    <div class="intro__logo-list">
 
-                        <div class="intro__logo-list">
+                        <a href="#" class="intro__logo-item">
+                            <img src="/src/apple-logo.svg" alt="Логотип apple" class="logo__img">
+                        </a>
 
-                            <a href="#" class="intro__logo-item">
-                                <img src="/src/apple-logo.svg" alt="Логотип apple" class="logo__img">
-                            </a>
+                        <a href="#" class="intro__logo-item">
+                            <img src="/src/android-logo.svg" alt="Логотип android" class="logo__img">
+                        </a>
 
-                            <a href="#" class="intro__logo-item">
-                                <img src="/src/android-logo.svg" alt="Логотип android" class="logo__img">
-                            </a>
-
-                            <a href="#" class="intro__logo-item">
-                                <img src="/src/microsoft-logo.svg" alt="Логотип microsoft" class="logo__img">
-                            </a>
-                        </div>
-
-                        <div class="intro__text">
-                            Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
-                        </div>
+                        <a href="#" class="intro__logo-item">
+                            <img src="/src/microsoft-logo.svg" alt="Логотип microsoft" class="logo__img">
+                        </a>
                     </div>
 
+                    <div class="intro__text">
+                        Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+                    </div>
                 </div>
+
             </div>
+
         </section>
 
         <section class="info">
@@ -85,28 +89,45 @@
         </section>
 
         <section class="benefits">
-            <div class="benefits__wrapper">
+            <div class="benefits__wrapper container">
+                <div class="benefits__items">
 
-                <div class="benefits__item">
-                    <h2 class="benefits__title">Поднимает настроение</h2>
-                    <div class="benefits__text">Приложение позволит вам победить осеннюю хандру и депрессию
-                        буквально в несколько кликов!</div>
+                    <div class="benefits__item">
+                        <h2 class="benefits__title">Поднимает настроение</h2>
+                        <div class="benefits__text">Приложение позволит вам победить осеннюю хандру и депрессию
+                            буквально в несколько кликов!</div>
+                    </div>
+
+                    <div class="benefits__item">
+                        <h2 class="benefits__title">Меняет мир вокруге</h2>
+                        <div class="benefits__text">Сделайте снимок и украсьте его смайликом или текстовой подписью,
+                            чтобы усилить эффект</div>
+                    </div>
+
+                    <div class="benefits__item">
+                        <h2 class="benefits__title">Заводит новых друзей</h2>
+                        <div class="benefits__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
+                            заводите новых</div>
+                    </div>
                 </div>
 
-                <div class="benefits__item">
-                    <h2 class="benefits__title">Меняет мир вокруге</h2>
-                    <div class="benefits__text">Сделайте снимок и украсьте его смайликом или текстовой подписью,
-                        чтобы усилить эффект</div>
-                </div>
-
-                <div class="benefits__item">
-                    <h2 class="benefits__title">Заводит новых друзей</h2>
-                    <div class="benefits__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и
-                        заводите новых</div>
-                </div>
-
-                <img src="./src/benefitsPhone.png" alt="phone">
+                <img src="./src/benefitsPhone.png" alt="phone" class="benefits__img">
             </div>
+
+            <div class="research">
+                <div class="research__img">
+                    <img src="./src/timer.svg" alt="timer">
+                </div>
+                <h1 class="research__title">Эффект
+                    на 24 часа!</h1>
+                <div class="research__text">Британские ученые провели исследования
+                    и доказали, что положительный эффект
+                    от использования приложения длится целые сутки!</div>
+                <a href="#" class="research__link">Узнать больше об исследовании</a>
+            </div>
+        </section>
+
+        <section class="review">
         </section>
 
     </main>

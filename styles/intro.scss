@@ -1,5 +1,4 @@
-.intro {
-    width: 100%;
+.intro__background {
     height: 462px;
     background: url('/src/backPhone.jpg') center no-repeat;
     background-size: cover;
@@ -21,26 +20,25 @@
 
 }
 
-
 .intro__content {
+    background-color: #1D2631;
     color: white;
-    padding-top: 84px;
-    
-
-    @media (min-width: 660px) {
-        padding-top: 211px;
-    }
-
 }
 
 
 .intro__title {
-    display: inline-block;
+    width: 280px;
+    position: absolute;
+    top: 84px;
+    right: 0;
+    left: 0;
+    margin: auto;
     font-family: "Open Sans";
     font-size: 24px;
     font-weight: 300;
     line-height: 29px;
     text-align: center;
+    color: white;
 
     br {
         display: none;
@@ -52,45 +50,45 @@
     }
 
     @media (min-width: 660px) {
+        width: 300px;
+        position: static;
         font-size: 40px;
         line-height: 120%;
-        padding-left: 79px;
+        margin-bottom: 39px;
 
     }
 
     @media (min-width:1200px) {
-        padding-left: 58px;
         font-size: 50px;
         line-height: 68px;
+        margin-bottom: 51px;
     }
 }
 
 .app-info {
-    margin-top: 320px;
-    padding-top: 28px;
-    padding-bottom: 40px;
+    padding: 38px 0 38px;
 
     @media (min-width:660px) {
-        margin-top: 39px;
         padding: 0;
+        position: absolute;
+        top: 200px;
     }
 
-    @media (min-width:1200px) {
-        margin-top: 51px;
-    }
+    @media (min-width:1200px) {}
 }
 
 .intro__button {
+    display: block;
     color: white;
+    width: 280px;
+    height: 55px;
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
     border: 3px solid white;
     border-radius: 29px;
-    margin-bottom: 32px;
+    margin: 0 auto 32px;
     background-color: transparent;
-    width: 280px;
-    height: 55px;
 
     @media (min-width: 660px) {
         margin-bottom: 46px;
@@ -117,6 +115,7 @@
         margin-left: 46px;
         margin-bottom: 38px;
     }
+
     @media (min-width: 1200px) {
         margin-bottom: 58px;
     }
@@ -138,4 +137,3 @@
     }
 
 }
-
