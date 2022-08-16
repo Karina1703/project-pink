@@ -27,11 +27,8 @@
 
 .intro__title {
   width: 280px;
-  position: absolute;
-  top: 84px;
-  right: 0;
-  left: 0;
-  margin: auto;
+  padding-top: 84px;
+  margin: 0 auto;
   font-family: "Open Sans";
   font-size: 24px;
   font-weight: 300;
@@ -50,7 +47,9 @@
 @media (min-width: 660px) {
   .intro__title {
     width: 300px;
-    position: static;
+    margin: 0;
+    padding-top: 210px;
+    padding-left: 20px;
     font-size: 40px;
     line-height: 120%;
     margin-bottom: 39px;
@@ -58,6 +57,8 @@
 }
 @media (min-width: 1200px) {
   .intro__title {
+    margin-left: 120px;
+    padding-top: 208px;
     font-size: 50px;
     line-height: 68px;
     margin-bottom: 51px;
@@ -71,9 +72,15 @@
   .app-info {
     padding: 0;
     position: absolute;
-    top: 200px;
+    top: 379px;
   }
 }
+@media (min-width: 1200px) {
+  .app-info {
+    top: 449px;
+  }
+}
+
 .intro__button {
   display: block;
   color: white;
