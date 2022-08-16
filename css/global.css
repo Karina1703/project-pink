@@ -2,14 +2,14 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local(""), url(./fonts/static/OpenSans/OpenSans-Light.ttf);
+    src: local(""), url(../fonts/static/OpenSans/OpenSans-Light.ttf);
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local(""), url(./fonts/static/OpenSans/OpenSans-Bold.ttf);
+    src: local(""), url(../fonts/static/OpenSans/OpenSans-Bold.ttf);
 }
 
 body {
