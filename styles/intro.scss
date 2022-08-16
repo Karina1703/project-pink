@@ -1,12 +1,12 @@
 .intro__background {
     height: 462px;
-    background: url('/src/backPhone.jpg') center no-repeat;
+    background: url('./src/backPhone.jpg') center no-repeat;
     background-size: cover;
     margin-top: -70px;
 
     @media (min-width: 660px) {
         height: 720px;
-        background: url('/src/backTablet.jpg') center no-repeat;
+        background: url('./src/backTablet.jpg') center no-repeat;
         background-size: cover;
         margin-top: -110px;
 
@@ -14,7 +14,7 @@
 
     @media (min-width: 1200px) {
         height: 853px;
-        background: url('/src/backDestop.jpg') center no-repeat;
+        background: url('./src/backDestop.jpg') center no-repeat;
         background-size: cover;
     }
 

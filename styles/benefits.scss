@@ -1,15 +1,15 @@
 .benefits {
     margin-top: -1px;
-    background: url(/src/backgroundGrey.svg) center no-repeat;
+    background: url(./src/backgroundGrey.svg) center no-repeat;
     background-size: cover;
 
     @media (min-width: 660px) {
-        background: url(/src/greybackgroundTablet.svg) center no-repeat;
+        background: url(./src/greybackgroundTablet.svg) center no-repeat;
         background-size: cover;
     }
 
     @media (min-width: 1200px) {
-        background: url(/src/greybackgroundDesktop.svg) center no-repeat;
+        background: url(./src/greybackgroundDesktop.svg) center no-repeat;
         background-size: cover;
     }
 
